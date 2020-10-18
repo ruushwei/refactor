@@ -7,6 +7,12 @@ package com.hongwei.refactor.dumplicate.after;
 public class CommonClass2 extends CommonBaseClass {
 
     @Override
+    public void method1() {
+        System.out.println("Class1 method1");
+        methodInner1();
+    }
+
+    @Override
     protected void printClassName() {
         System.out.println("CommonClass2");
     }

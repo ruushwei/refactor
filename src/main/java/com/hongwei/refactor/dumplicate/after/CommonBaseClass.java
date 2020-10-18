@@ -7,7 +7,7 @@ package com.hongwei.refactor.dumplicate.after;
 public abstract class CommonBaseClass implements CommonInterface {
 
     // 相同方法，直接提取
-    public void method1() {
+    public void methodInner1() {
         // 123
     }
 
