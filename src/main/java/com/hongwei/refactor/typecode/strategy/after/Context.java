@@ -10,7 +10,6 @@ public class Context {
         AnimalBO animalBO = AnimalBO.create(1,  1, "猫1" );
         animalBO.getAnimalTypeStrategy().eat();
     }
-
     public void doRun() {
         AnimalBO animalBO = AnimalBO.create(1,  2, "狗1" );
         animalBO.getAnimalTypeStrategy().run();
