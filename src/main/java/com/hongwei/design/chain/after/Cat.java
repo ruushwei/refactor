@@ -5,7 +5,6 @@ package com.hongwei.design.chain.after;
  * Created on 2020-10-19
  */
 public class Cat extends Animal {
-
     @Override
     protected void eat(Food food) {
         if (food.getGood() > 80) {
