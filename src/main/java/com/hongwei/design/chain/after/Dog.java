@@ -10,6 +10,7 @@ public class Dog extends Animal {
     protected void eat(Food food) {
         if (food.getGood() > 80) {
             // do eat
+            return;
         } else {
             if (nextAnimal != null) {
                 nextAnimal.eat(food);

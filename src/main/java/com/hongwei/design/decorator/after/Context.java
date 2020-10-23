@@ -10,5 +10,8 @@ public class Context {
         Animal animal = new Cat();
         Decorator decorator = new ClothDecorator(animal);
         decorator.eat();
+
+        Decorator hatDecorator = new HatDecorator(animal);
+        hatDecorator.eat();
     }
 }

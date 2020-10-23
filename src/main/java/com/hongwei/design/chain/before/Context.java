@@ -13,11 +13,11 @@ public class Context {
         }
         if (food.getGood() > 60) {
             // do dog eat
-            return "cat";
+            return "dog";
         }
         if (food.getGood() > 30) {
             // do pig eat
-            return "cat";
+            return "pig";
         }
         return "null";
     }

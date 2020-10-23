@@ -10,6 +10,7 @@ public class AnimalChain extends Animal {
     protected void eat(Food food) {
         Animal cat = new Cat();
         Animal dog = new Dog();
+
         Animal pig = new Pig();
 
 
